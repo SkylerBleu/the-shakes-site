@@ -5,13 +5,15 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center justify-center pt-40">
       <h1 className="text-4xl font-bold text-white"></h1>
 
-      {/* Local video */}
+      {/* Banner video */}
       <div className="w-full max-w-4xl aspect-video mb-10">
         <video
           className="w-full h-full rounded-2xl shadow-lg"
           src="/videos/Dope-Vid-Final.mov"
           controls
           playsInline
+          autoPlay
+          muted
         />
       </div>
 
@@ -23,6 +25,8 @@ export default function Home() {
           title="YouTube video player"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
+          autoplay
+          m
         ></iframe>
       </div>
 
