@@ -13,25 +13,24 @@ export default function ShowsPage() {
 
   return (
     <main className="pt-40 px-6 max-w-4xl mx-auto text-white text-center">
-      <h1 className="text-4xl font-bold mb-8">Ready for the luau of the centery?</h1>
-
-      {/* Instagram video embed */}
-      <div className="mb-12 flex justify-center">
-        <blockquote
-          className="instagram-media"
-          data-instgrm-permalink="https://www.instagram.com/p/DLvKevUJ1TW/"
-          data-instgrm-version="14"
-          style={{ background: '#000', margin: '0 auto', maxWidth: '540px' }}
-        ></blockquote>
-      </div>
+      <h1 className="text-4xl font-bold mb-8">The Rickhouse</h1>
 
       {/* Show flyer */}
       <img
-        src="/shows/flyer-new.PNG"
+        src="/shows/rickhouse_flyer.JPG"
         alt="Show Flyer"
         className="w-full max-w-3xl mx-auto rounded shadow-lg mb-12"
       />
-      
+
+      {/* Get Tickets button */}
+      <a
+        href="https://www.bandsintown.com/e/1036428729-immortal-synn-at-the-rickhouse?came_from=252"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-block px-8 py-4 bg-gradient-to-r from-purple-500 to-pink-500 text-white font-semibold text-lg rounded-2xl shadow-lg hover:scale-105 hover:shadow-xl transition-transform duration-300"
+      >
+        🎟️ Get Tickets
+      </a>
     </main>
   )
 }
